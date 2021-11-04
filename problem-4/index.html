@@ -6,19 +6,18 @@
     <title>Dom Problem #4</title>
 </head>
 <body>
-    <form action="script.js" onSubmit="return dom()">
-        <label for="music">Music</label>
-        <select name="music" id="music">
-            <option value="rap">Rap</option>
-            <option value="electronic">Electronic</option>
-            <option value="ragae">Ragae</option>
-        </select>
-        <input type="submit" 
-               value="Submit" id="submit">
-    </form>
+    <label for="music">Music</label>
+    <select onchange="dom()" name="music" id="music">
+        <option value="rap">Rap</option>
+        <option value="electronic">Electronic</option>
+        <option value="ragae">Ragae</option>
+    </select>
     <script src="script.js"></script>
 </body>
 </html>
+    
+    
+   
     
 
 
