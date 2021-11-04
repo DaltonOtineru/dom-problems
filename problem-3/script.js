@@ -1,4 +1,4 @@
-function newRow {
+function newRow() {
     var table = document.getElementById("myTable");
     var row = table.insertRow(2);
     var cell1 = row.insertCell(0);
@@ -11,4 +11,3 @@ function newRow {
     cell4.innerHTML = "Hardest";
 }
 newRow();
-  
