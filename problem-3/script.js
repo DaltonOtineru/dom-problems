@@ -10,4 +10,3 @@ function newRow() {
     cell3.innerHTML = "Harder";
     cell4.innerHTML = "Hardest";
 }
-newRow();
